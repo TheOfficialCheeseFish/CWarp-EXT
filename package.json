@@ -1,0 +1,16 @@
+{
+  "name": "cloudlink-neo-server",
+  "version": "1.0.0",
+  "description": "CloudLink Neo advanced WebSocket server",
+  "main": "server_advanced.js",
+  "scripts": {
+    "start": "node server_advanced.js",
+    "dev": "node --watch server_advanced.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5"
+  }
+}
